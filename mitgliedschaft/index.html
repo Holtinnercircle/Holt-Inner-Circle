@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+
+  <title>Mitgliedschaft — Holt Zirkel</title>
+  <meta name="description" content="Bewerbung um eine Mitgliedschaft im Holt Zirkel. Jede Aufnahme beginnt mit einem vertraulichen Gespräch." />
+
+  <link rel="canonical" href="https://holtzirkel.de/mitgliedschaft/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="de_DE" />
+  <meta property="og:site_name" content="Holt Zirkel" />
+  <meta property="og:title" content="Mitgliedschaft — Holt Zirkel" />
+  <meta property="og:description" content="Bewerbung um eine Mitgliedschaft im Holt Zirkel. Jede Aufnahme beginnt mit einem vertraulichen Gespräch." />
+  <meta property="og:url" content="https://holtzirkel.de/mitgliedschaft/" />
+  <meta property="og:image" content="https://holtzirkel.de/images/Logo.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" type="image/png" href="/images/Logo.jpg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="/variables.css" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body class="page page--mitglied page--minimal">
+
+  <header class="nav nav--scrolled" role="banner">
+    <div class="nav__inner">
+      <a class="nav__brand" href="/" aria-label="Holt Zirkel">
+        <img src="/images/Logo.jpg" alt="" />
+        <span class="wordmark">Holt</span>
+        <span class="wordmark-suffix">Zirkel</span>
+      </a>
+      <nav aria-label="Hauptnavigation">
+        <ul class="nav__links">
+          <li><a class="nav__link" href="/institution/">Institution</a></li>
+          <li><a class="nav__link" href="/ansatz/">Ansatz</a></li>
+          <li><a class="nav__link" href="/auswahl/">Auswahl</a></li>
+          <li><a class="nav__link" href="/executive-office/">Executive Office</a></li>
+          <li><a class="nav__link" href="/mitgliedschaft/" aria-current="page">Mitgliedschaft</a></li>
+        </ul>
+      </nav>
+      <div class="nav__lang" role="group" aria-label="Sprache">
+        <a class="nav__cta" href="/mitgliedschaft/">Beitreten</a>
+        <button type="button" class="nav__menu" data-menu-open aria-label="Menü">
+          <span class="nav__menu-bars" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <aside class="nav__sheet" data-open="false" aria-hidden="true">
+    <div class="nav__sheet-head">
+      <a class="nav__brand" href="/">
+        <img src="/images/Logo.jpg" alt="" />
+        <span class="wordmark">Holt</span>
+        <span class="wordmark-suffix">Zirkel</span>
+      </a>
+      <button type="button" class="nav__sheet-close" data-menu-close>Schliessen</button>
+    </div>
+    <ul class="nav__sheet-links">
+      <li><a href="/institution/">Institution</a></li>
+      <li><a href="/ansatz/">Ansatz</a></li>
+      <li><a href="/auswahl/">Auswahl</a></li>
+      <li><a href="/executive-office/">Executive Office</a></li>
+      <li><a href="/mitgliedschaft/">Mitgliedschaft</a></li>
+    </ul>
+  </aside>
+
+  <section class="page-header" data-reveal>
+    <div class="container">
+      <div class="editorial">
+        <div class="editorial__margin">
+          <p class="meta">Berlin</p>
+        </div>
+        <div class="editorial__main">
+          <p class="eyebrow">Mitgliedschaft</p>
+          <h1 class="display-l page-header__title">Im vertraulichen Gespräch.</h1>
+          <p class="lead page-header__lead">
+            Jede Aufnahme beginnt mit einer persönlichen Bewerbung. Wir antworten innerhalb weniger Tage.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--no-rule" data-reveal>
+    <div class="container">
+      <div class="editorial">
+        <div class="editorial__margin">
+          <p class="meta">Bewerbung</p>
+        </div>
+        <div class="editorial__main">
+          <div class="prose">
+            <p>
+              Bitte schildern Sie uns kurz Ihren Hintergrund, Ihr unternehmerisches Wirken und Ihre Beweggründe für eine Mitgliedschaft im Holt Zirkel.
+            </p>
+          </div>
+
+<form class="application" id="application-form">
+
+  <div class="application__row" style="display:grid;grid-template-columns:1fr 1fr;gap:var(--space-5);">
+    <div class="application__field">
+      <label class="application__label" for="vorname">Vorname</label>
+      <input class="application__input" type="text" id="vorname" name="vorname" required />
+    </div>
+    <div class="application__field">
+      <label class="application__label" for="nachname">Nachname</label>
+      <input class="application__input" type="text" id="nachname" name="nachname" required />
+    </div>
+  </div>
+
+  <div class="application__row" style="display:grid;grid-template-columns:1fr 1fr;gap:var(--space-5);">
+    <div class="application__field">
+      <label class="application__label" for="alter">Alter</label>
+      <input class="application__input" type="number" id="alter" name="alter" min="18" max="120" />
+    </div>
+    <div class="application__field">
+      <label class="application__label" for="geschlecht">Geschlecht</label>
+      <input class="application__input" type="text" id="geschlecht" name="geschlecht" />
+    </div>
+  </div>
+
+  <div class="application__field">
+    <label class="application__label" for="email">E-Mail</label>
+    <input class="application__input" type="email" id="email" name="email" required />
+  </div>
+
+  <div class="application__field">
+    <label class="application__label" for="telefon">Telefon</label>
+    <input class="application__input" type="tel" id="telefon" name="telefon" />
+  </div>
+
+  <div class="application__field">
+    <label class="application__label" for="stadt">Stadt</label>
+    <input class="application__input" type="text" id="stadt" name="stadt" />
+  </div>
+
+  <div class="application__field">
+    <label class="application__label" for="beruf">Beruf / Tätigkeit</label>
+    <input class="application__input" type="text" id="beruf" name="beruf" />
+  </div>
+
+  <div class="application__field">
+    <label class="application__label" for="social">Social Media / Website</label>
+    <input class="application__input" type="text" id="social" name="social" placeholder="LinkedIn, Instagram, Website …" />
+  </div>
+
+  <div class="application__field">
+    <label class="application__label" for="interesse">Anliegen</label>
+    <textarea class="application__textarea" id="interesse" name="interesse" rows="5" required placeholder="Hintergrund, unternehmerisches Wirken, Beweggründe …"></textarea>
+  </div>
+
+  <button type="submit" class="application__submit">Bewerbung senden</button>
+  <p class="application__status" id="application-status" style="margin-top:1.5rem;font-size:var(--type-small);color:var(--color-ink-soft);"></p>
+</form>
+
+<script>
+(function () {
+  const ENDPOINT = 'https://script.google.com/macros/s/AKfycbxjkq_-AsfV6M3YHtc5AW-yEl8uC8ta7HFN5wP-x9UjpfsKGVoiI7M2B0pwv_Ky5gu8/exec';
+  const form = document.getElementById('application-form');
+  const status = document.getElementById('application-status');
+
+  form.addEventListener('submit', async function (e) {
+    e.preventDefault();
+    status.textContent = 'Wird übermittelt …';
+    status.style.color = 'var(--color-ink-soft)';
+
+    const payload = {
+      vorname:    form.vorname.value,
+      nachname:   form.nachname.value,
+      geschlecht: form.geschlecht.value,
+      alter:      form.alter.value,
+      email:      form.email.value,
+      telefon:    form.telefon.value,
+      stadt:      form.stadt.value,
+      beruf:      form.beruf.value,
+      social:     form.social.value,
+      interesse:  form.interesse.value
+    };
+
+    try {
+      const res = await fetch(ENDPOINT, {
+        method: 'POST',
+        headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+        body: JSON.stringify(payload)
+      });
+      const text = await res.text();
+      if (!text.startsWith('OK')) throw new Error(text);
+
+      form.reset();
+      status.textContent = 'Vielen Dank. Ihre Anfrage ist eingegangen.';
+      status.style.color = 'var(--color-ink)';
+    } catch (err) {
+      status.textContent = 'Es ist ein Fehler aufgetreten. Bitte schreiben Sie uns direkt an holtinnercircle@gmail.com.';
+      status.style.color = '#a14';
+    }
+  });
+})();
+</script>
+
+  <section class="section" data-reveal>
+    <div class="container">
+      <div class="editorial">
+        <div class="editorial__margin">
+          <p class="meta">Anschrift</p>
+        </div>
+        <div class="editorial__main">
+          <h2 class="display-m" style="margin-bottom:2rem">Executive Office.</h2>
+          <dl class="dl-contact">
+            <div>
+              <dt>Sitz</dt>
+              <dd>Holt Zirkel<br>Kandoy House
+2 Fairview Strand<br>Dublin 3
+D03 Y1E2
+Ireland</dd>
+            </div>
+            <div>
+              <dt>Korrespondenz</dt>
+              <dd><a href="mailto:holtinnercircle@gmail.com">holtinnercircle@gmail.com</a></dd>
+            </div>
+            <div>
+              <dt>Termine</dt>
+              <dd>Persönlich, nach vorheriger Vereinbarung.</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__mark">
+        <img src="/images/Logo.jpg" alt="" />
+        <span class="wordmark">Holt <span>Zirkel</span></span>
+      </div>
+      <div class="footer__grid">
+        <div class="footer__col"><p>Eine private Institution.</p></div>
+        <div class="footer__col">
+          <h4>Übersicht</h4>
+          <ul>
+            <li><a href="/institution/">Institution</a></li>
+            <li><a href="/ansatz/">Ansatz</a></li>
+            <li><a href="/auswahl/">Auswahl</a></li>
+            <li><a href="/executive-office/">Executive Office</a></li>
+            <li><a href="/mitgliedschaft/">Mitgliedschaft</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Sitz</h4>
+          <p>Kandoy House
+2 Fairview Strand<br>Dublin 3
+D03 Y1E2
+Ireland</p>
+        </div>
+        <div class="footer__col">
+          <h4>Rechtliches</h4>
+          <ul>
+            <li><a href="/mitgliedschaft/">Kontakt</a></li>
+            <li><a href="/legal/">Rechtliches</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__base">
+        <p>© <span data-year></span> Holt Zirkel.</p>
+        <p>Substanz entscheidet.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/language.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>
